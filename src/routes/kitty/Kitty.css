@@ -6,7 +6,6 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE.txt file in the root directory of this source tree.
  */
-
 @import '../../components/variables.css';
 
 .root {
@@ -17,5 +16,20 @@
 .container {
   margin: 0 auto;
   padding: 0 0 40px;
-  max-width: var(--max-content-width);
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.buttonContainerRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
 }

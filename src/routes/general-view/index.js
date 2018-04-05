@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import Login from './Login';
+import GeneralView from './GeneralView';
 
-const title = 'Connexion';
+const title = 'GeneralView';
 
 function action() {
   return {
-    chunks: ['Connexion'],
+    chunks: ['general-view'],
     title,
     component: (
       <Layout>
-        <Login title={title} />
+        <GeneralView />
       </Layout>
     ),
   };

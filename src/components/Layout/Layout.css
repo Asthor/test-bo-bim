@@ -8,7 +8,6 @@
  */
 
 @import '../variables.css';
-@import '../../../node_modules/office-ui-fabric-react/dist/css/fabric.min.css';
 
 /*
  * normalize.css is imported in JS file.
@@ -30,10 +29,11 @@ html {
 
 body {
   margin: 0;
+  background-color: #ECF2F6;
 }
 
 a {
-  color: #EA5153;
+  text-decoration: none;
 }
 
 /*

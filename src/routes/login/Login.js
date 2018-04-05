@@ -11,7 +11,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Login.css';
-import { Button } from "@blueprintjs/core";
 
 class Login extends React.Component {
   static propTypes = {
@@ -56,7 +55,6 @@ class Login extends React.Component {
               </button>
             </div>
           </form>
-          <Button type="button" class="pt-button pt-icon-add">Default button</Button>
         </div>
       </div>
     );

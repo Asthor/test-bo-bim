@@ -14,14 +14,14 @@
 }
 
 .root {
-  background: #EA5153;
+  background: #2B2F3E;
   color: #fff;
 }
 
 .container {
   margin: 0 auto;
-  padding: 20px 0;
-  max-width: var(--max-content-width);
+  padding: 20px 50px 20px 50px;
+  min-width: 700px;
 }
 
 .brand {

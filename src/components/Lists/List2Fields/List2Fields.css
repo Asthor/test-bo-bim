@@ -1,0 +1,27 @@
+@import '../../variables.css';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid #dfdfdf;
+  padding-left: 30px;
+}
+
+.container:hover {
+  background: #efefef;
+}
+
+.contentField {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.text {
+  color: #2B2F3E;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
+

@@ -20,20 +20,28 @@ const routes = {
       load: () => import(/* webpackChunkName: 'home' */ './home'),
     },
     {
-      path: '/contact',
-      load: () => import(/* webpackChunkName: 'contact' */ './contact'),
+      path: '/users',
+      load: () => import(/* webpackChunkName: 'users' */ './users'),
+    },
+    {
+      path: '/payments',
+      load: () => import(/* webpackChunkName: 'payments' */ './payments'),
+    },
+    {
+      path: '/kitty',
+      load: () => import(/* webpackChunkName: 'kitty' */ './kitty'),
     },
     {
       path: '/login',
-      load: () => import(/* webpackChunkName: 'login' */ './login'),
+      load: () => import(/* webpackChunkName: 'login' */ './kitty'),
     },
     {
       path: '/register',
       load: () => import(/* webpackChunkName: 'register' */ './register'),
     },
     {
-      path: '/about',
-      load: () => import(/* webpackChunkName: 'about' */ './about'),
+      path: '/general-view',
+      load: () => import(/* webpackChunkName: 'general-view' */ './general-view'),
     },
     {
       path: '/privacy',

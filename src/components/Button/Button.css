@@ -1,0 +1,17 @@
+@import '../variables.css';
+
+.container {
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+
+.title {
+  color: #fff;
+  font-size: 18px;
+  flex-wrap: wrap;
+  margin-left: 5px;
+}
