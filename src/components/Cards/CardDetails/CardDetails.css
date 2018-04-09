@@ -1,0 +1,84 @@
+@import '../../variables.css';
+
+.container {
+  background: #FFF;
+  display: flex;
+  flex: 1;
+  margin: 20px;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  min-width: 400px;
+}
+
+.header {
+  background-color: #9FACBF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-color: #404040;
+}
+
+.text {
+  color: #9FACBF;
+  font-size: 18px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 10px;
+}
+
+.title {
+  color: #fff;
+  font-size: 20px;
+  flex-wrap: wrap;
+  font-weight: bold;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #dfdfdf;
+  border-radius: 4px;
+  margin: 30px;
+  flex: 1;
+  max-width: 350px;
+  min-width: 200px;
+  flex-wrap: wrap;
+}
+
+.contentMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border-bottom: 0.2px solid #dfdfdf;
+  flex-wrap: wrap;
+}
+.contentMenu:hover {
+  background: #f9f9f9;
+}
+
+.mainContent {
+  display: flex;
+  padding: 30px;
+  margin: 30px;
+  border: 0.8px solid #dfdfdf;
+  border-radius: 4px;
+  flex: 1;
+}

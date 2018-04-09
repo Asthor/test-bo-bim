@@ -10,13 +10,18 @@ class ListPayment extends React.Component {
           <span className={s.text}>{this.props.field1}</span>
         </div>
         <div className={s.contentField}>
-          <span style={{color: this.props.stateColor}} className={s.statut}>{this.props.statut}</span>
+          <div style={{backgroundColor: this.props.stateColor}} className={s.statutContainer}>
+            <span className={s.statut}>{this.props.statut}</span>
+            <span className={s.date}>{this.props.date}</span>
+        </div>
         </div>
         <div className={s.contentField}>
           <span className={s.text}>{this.props.field2}</span>
         </div>
         <div className={s.contentField}>
+          <a href={this.props.link}>
           <span className={s.text}>{this.props.field3}</span>
+          </a>
         </div>
         <div className={s.contentField}>
           <span className={s.text}>{this.props.field4}</span>
@@ -43,7 +48,8 @@ class ListPayment extends React.Component {
 
 ListPayment.defaultProps = {
   field1: 'le 00/00/0000 à 00:00',
-  statut: 'Validé le 00/00/0000 à 00:00',
+  statut: 'Validé',
+  date:'le 00/00/0000 à 00:00',
   field2: 'Nom commerce',
   field3: 'Prénom + Nom',
   field4: 'PP0000000',
@@ -52,8 +58,8 @@ ListPayment.defaultProps = {
   field7: '0,00€',
   field8: '0,00€',
   field9: '0,00€',
-
-  stateColor: 'green',
+  link: '',
+  stateColor: '#5fa613',
 };
 
 export default withStyles(s)(ListPayment);

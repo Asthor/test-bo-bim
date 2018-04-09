@@ -5,6 +5,7 @@ import s from './List3Fields.css';
 class List extends React.Component {
   render() {
     return (
+      <a href={this.props.link}>
       <div style={{backgroundColor: this.props.backgroundColor}} className={s.container}>
         <div className={s.contentField}>
           <span style={{color: this.props.colorField1}} className={s.text}>{this.props.field1}</span>
@@ -16,6 +17,7 @@ class List extends React.Component {
           <span style={{color: this.props.colorField3}} className={s.text}>{this.props.field3}</span>
         </div>
       </div>
+      </a>
     );
   }
 }
@@ -28,6 +30,7 @@ List.defaultProps = {
   colorField1: '#2B2F3E',
   colorField2: '#2B2F3E',
   colorField3: '#2B2F3E',
+  link: '',
 };
 
 export default withStyles(s)(List);

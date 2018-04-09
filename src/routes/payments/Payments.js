@@ -16,6 +16,7 @@ import ListPayment from '../../components/Lists/ListPayment';
 import Button from '../../components/Button';
 import FaChevronLeft from 'react-icons/lib/fa/chevron-left';
 import FaListAlt from 'react-icons/lib/fa/list-alt';
+import NavigationCard from '../../components/Navigation/Navigation-Card/NavigationCard';
 
 class Payments extends React.Component {
   static propTypes = {
@@ -39,11 +40,12 @@ class Payments extends React.Component {
             </div>
           </div>
           <CardPayments title="Paiements">
+            <ListPayment stateColor='orange' statut='En attente'/>
+            <ListPayment stateColor='orange' statut='En attente'/>
             <ListPayment/>
             <ListPayment/>
             <ListPayment/>
-            <ListPayment/>
-            <ListPayment/>
+            <ListPayment stateColor='red' statut='Annulé'/>
             <ListPayment/>
             <ListPayment/>
             <ListPayment/>
@@ -59,6 +61,7 @@ class Payments extends React.Component {
             <ListPayment/>
             <ListPayment/>
           </CardPayments>
+          <NavigationCard/>
         </div>
       </div>
     );

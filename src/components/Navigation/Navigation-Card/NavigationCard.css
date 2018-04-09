@@ -1,0 +1,31 @@
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 130px;
+}
+
+.buttonPrev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2B2F3E;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.buttonNext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2B2F3E;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.text {
+  font-size: 16px;
+}

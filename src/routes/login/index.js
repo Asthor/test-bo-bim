@@ -6,7 +6,7 @@ const title = 'Connexion';
 
 function action() {
   return {
-    chunks: ['Connexion'],
+    chunks: ['login'],
     title,
     component: (
       <Layout>

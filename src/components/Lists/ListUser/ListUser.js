@@ -6,7 +6,7 @@ import UserIconUrl from './UserIcon.png';
 class ListUser extends React.Component {
   render() {
     return (
-      <div className={s.container}>
+      <div className={s.container} onClick={this.props.onClick}>
         <div className={s.contentField}>
           <img
             src={UserIconUrl}
@@ -25,7 +25,9 @@ class ListUser extends React.Component {
           <span className={s.text}>{this.props.field3}</span>
         </div>
         <div className={s.contentField}>
-          <span style={{color: this.props.stateColor}} className={s.statut}>{this.props.statut}</span>
+          <div style={{backgroundColor: this.props.stateColor}} className={s.statutContainer}>
+            <span className={s.statut}>{this.props.statut}</span>
+          </div>
         </div>
         <div className={s.contentField}>
           <span className={s.text}>{this.props.field4}</span>
@@ -53,7 +55,7 @@ ListUser.defaultProps = {
   field6: '00/00/0000 (00 ans)',
   field7: '00/00/0000 à 00:00',
   statut: 'Paiement effectué',
-  stateColor: 'green',
+  stateColor: '#5fa613',
 };
 
 export default withStyles(s)(ListUser);

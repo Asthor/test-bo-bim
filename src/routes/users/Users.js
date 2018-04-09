@@ -1,12 +1,3 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
@@ -16,11 +7,19 @@ import ListUser from '../../components/Lists/ListUser';
 import Button from '../../components/Button';
 import FaChevronLeft from 'react-icons/lib/fa/chevron-left';
 import FaListAlt from 'react-icons/lib/fa/list-alt';
+import NavigationCard from '../../components/Navigation/Navigation-Card/NavigationCard';
+import { Modal } from 'react-bootstrap';
+import CardDetails from '../../components/Cards/CardDetails';
+
 
 class Users extends React.Component {
   static propTypes = {
     title: PropTypes.string.isRequired,
   };
+  state = {modal: false}
+  openModal = () => {
+    this.setState({modal:true})
+  }
 
   render() {
     return (
@@ -35,7 +34,7 @@ class Users extends React.Component {
             </Button>
           </div>
           <CardUsers title="Utilisateurs">
-            <ListUser/>
+            <ListUser onClick={this.openModal}/>
             <ListUser
               statut='CB enregistré'
               stateColor='orange'/>
@@ -59,8 +58,29 @@ class Users extends React.Component {
             <ListUser
               statut='Aucune CB'
               stateColor='red'/>
+            <ListUser/>
+            <ListUser/>
+            <ListUser/>
+            <ListUser/>
+            <ListUser/>
+            <ListUser/>
+            <ListUser/>
+            <ListUser/>
           </CardUsers>
+          <NavigationCard/>
         </div>
+      <CardDetails>
+        <label className={s.label} htmlFor="usernameOrEmail">
+          Adresse email:
+          <input
+            className={s.input}
+            id="usernameOrEmail"
+            type="text"
+            name="usernameOrEmail"
+            autoFocus // eslint-disable-line jsx-a11y/no-autofocus
+          />
+        </label>
+      </CardDetails>
       </div>
     );
   }

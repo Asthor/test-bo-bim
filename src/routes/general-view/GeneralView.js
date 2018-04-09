@@ -35,7 +35,7 @@ class GeneralView extends React.Component {
               <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#E8FFC1'/>
               <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#E8FFC1'/>
             </Card3Fields>
-            <Card3Fields title="Paiments" sub1="Nom" sub2="Commerce" sub3="Montant" link="/payments">
+            <Card3Fields title="Paiements" sub1="Nom" sub2="Commerce" sub3="Montant" link="/payments">
               <List3Fields field1="Prénom + Nom" field2="Nom Commerce" field3="0,00€" backgroundColor='#FDFDEB'/>
               <List3Fields field1="Prénom + Nom" field2="Nom Commerce" field3="0,00€" backgroundColor='#FDFDEB'/>
               <List3Fields field1="Prénom + Nom" field2="Nom Commerce" field3="0,00€" backgroundColor='#E8FFC1'/>
@@ -51,7 +51,7 @@ class GeneralView extends React.Component {
               <List3Fields field1="Prénom + Nom" field2="Prénom + Nom" field3="0,00€"/>
               <List3Fields field1="Prénom + Nom" field2="Prénom + Nom" field3="0,00€"/>
             </Card3Fields>
-            <Card3Fields title="Parrainages" sub1="Parrain" sub2="Filleul" sub3="Statut">
+            <Card3Fields title="Parrainages" sub1="Parrain" sub2="Filleul" sub3="Statut" link="/partnerships">
               <List3Fields field1="Prénom + Nom" field2="Prénom + Nom" field3="Crédité" colorField3='green'/>
               <List3Fields field1="Prénom + Nom" field2="Prénom + Nom" field3="En attente" colorField3='orange'/>
               <List3Fields field1="Prénom + Nom" field2="Prénom + Nom" field3="Crédité" colorField3='green'/>

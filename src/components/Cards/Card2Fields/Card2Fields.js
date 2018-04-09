@@ -3,7 +3,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Card2Fields.css';
 import MdZoomIn from 'react-icons/lib/md/zoom-in';
 
-class List2Fields extends React.Component {
+class Card2Fields extends React.Component {
   render() {
     return (
       <div className={s.container}>
@@ -23,11 +23,11 @@ class List2Fields extends React.Component {
   }
 }
 
-List2Fields.defaultProps = {
+Card2Fields.defaultProps = {
   title: 'Catégorie',
   sub1: 'Sub1',
   sub2: 'Sub2',
   link: '',
 };
 
-export default withStyles(s)(List2Fields);
+export default withStyles(s)(Card2Fields);

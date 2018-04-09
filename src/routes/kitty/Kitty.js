@@ -16,6 +16,7 @@ import ListKitty from '../../components/Lists/ListKitty';
 import Button from '../../components/Button';
 import FaChevronLeft from 'react-icons/lib/fa/chevron-left';
 import FaListAlt from 'react-icons/lib/fa/list-alt';
+import NavigationCard from '../../components/Navigation/Navigation-Card/NavigationCard';
 
 class Kitty extends React.Component {
   static propTypes = {
@@ -35,14 +36,19 @@ class Kitty extends React.Component {
             </Button>
           </div>
           <CardKitty title="Cagnottes">
+            <ListKitty statut='Annulé'
+            stateColor='red'/>
             <ListKitty/>
             <ListKitty/>
             <ListKitty/>
             <ListKitty/>
             <ListKitty/>
             <ListKitty/>
+            <ListKitty statut='Annulé'
+                       stateColor='red'/>
             <ListKitty/>
-            <ListKitty/>
+            <ListKitty statut='Annulé'
+                       stateColor='red'/>
             <ListKitty/>
             <ListKitty/>
             <ListKitty/>
@@ -54,6 +60,7 @@ class Kitty extends React.Component {
             <ListKitty/>
             <ListKitty/>
           </CardKitty>
+          <NavigationCard/>
         </div>
       </div>
     );
