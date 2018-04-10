@@ -28,12 +28,12 @@ class GeneralView extends React.Component {
               </List2Fields>
             </Card2Fields>
             <Card3Fields title="Utilisateurs" sub1="Prénom" sub2="Nom" sub3="Inscription" link="/users">
-              <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#FDFDEB'/>
-              <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Prénom" field2="Nom" field3="00/00/0000" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Prénom" field2="Nom" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Prénom" field2="Nom" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Prénom" field2="Nom" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Prénom" field2="Nom" field3="le 00/00/0000 à 00:00" backgroundColor='#FDFDEB'/>
+              <List3Fields field1="Prénom" field2="Nom" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Prénom" field2="Nom" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
             </Card3Fields>
             <Card3Fields title="Paiements" sub1="Nom" sub2="Commerce" sub3="Montant" link="/payments">
               <List3Fields field1="Prénom + Nom" field2="Nom Commerce" field3="0,00€" backgroundColor='#FDFDEB'/>
@@ -84,12 +84,12 @@ class GeneralView extends React.Component {
               <List3Fields/>
             </Card3Fields>
             <Card3Fields title="Virements" sub1="Commerce" sub2="Montant" sub3="Date">
-              <List3Fields field1="Nom commerce" field2="0,00€" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Nom commerce" field2="0,00€" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Nom commerce" field2="0,00€" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Nom commerce" field2="0,00€" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Nom commerce" field2="0,00€" field3="00/00/0000" backgroundColor='#E8FFC1'/>
-              <List3Fields field1="Nom commerce" field2="0,00€" field3="00/00/0000" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Nom commerce" field2="0,00€" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Nom commerce" field2="0,00€" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Nom commerce" field2="0,00€" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Nom commerce" field2="0,00€" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Nom commerce" field2="0,00€" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
+              <List3Fields field1="Nom commerce" field2="0,00€" field3="le 00/00/0000 à 00:00" backgroundColor='#E8FFC1'/>
             </Card3Fields>
             <Card3Fields title="Administration">
               <List3Fields/>
