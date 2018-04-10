@@ -1,16 +1,16 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import Payments from './Payments';
+import Notifications from './Notifications';
 
-const title = 'Paiments';
+const title = 'Notifications';
 
 function action() {
   return {
-    chunks: ['payments'],
+    chunks: ['notifications'],
     title,
     component: (
       <Layout>
-        <Payments/>
+        <Notifications/>
       </Layout>
     ),
   };

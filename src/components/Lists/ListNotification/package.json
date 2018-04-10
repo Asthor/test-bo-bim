@@ -1,0 +1,6 @@
+{
+  "name": "ListNotification",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListNotification.js"
+}

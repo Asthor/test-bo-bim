@@ -9,6 +9,7 @@
   border-radius: 4px;
   border: 1px solid #e1e1e1;
   min-width: 400px;
+  max-width: 1200px;
 }
 
 .header {

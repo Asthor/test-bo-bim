@@ -59,7 +59,7 @@ class GeneralView extends React.Component {
               <List3Fields field1="Prénom + Nom" field2="Prénom + Nom" field3="Crédité" colorField3='green'/>
               <List3Fields field1="Prénom + Nom" field2="Prénom + Nom" field3="Crédité" colorField3='green'/>
             </Card3Fields>
-            <Card3Fields title="Notifications" sub1="Titre" sub2="Nom" sub3="Date">
+            <Card3Fields title="Notifications" sub1="Titre" sub2="Nom" sub3="Date" link="/notifications">
               <List3Fields field1="Titre Notification" field2="Prénom + Nom" field3="à 00:00 le 00/00"/>
               <List3Fields field1="Titre Notification" field2="Prénom + Nom" field3="à 00:00 le 00/00"/>
               <List3Fields field1="Titre Notification" field2="Prénom + Nom" field3="à 00:00 le 00/00"/>
@@ -67,7 +67,7 @@ class GeneralView extends React.Component {
               <List3Fields field1="Titre Notification" field2="Prénom + Nom" field3="à 00:00 le 00/00"/>
               <List3Fields field1="Titre Notification" field2="Prénom + Nom" field3="à 00:00 le 00/00"/>
             </Card3Fields>
-            <Card2Fields title="Commerces" sub1="Commerce" sub2="Ville">
+            <Card2Fields title="Commerces" sub1="Commerce" sub2="Ville" link="/shops">
               <List2Fields field1="Nom commerce" field2="Ville"/>
               <List2Fields field1="Nom commerce" field2="Ville"/>
               <List2Fields field1="Nom commerce" field2="Ville"/>
@@ -75,7 +75,7 @@ class GeneralView extends React.Component {
               <List2Fields field1="Nom commerce" field2="Ville"/>
               <List2Fields field1="Nom commerce" field2="Ville"/>
             </Card2Fields>
-            <Card3Fields title="Bons plans">
+            <Card3Fields title="Bons plans" link="/good-deals">
               <List3Fields/>
               <List3Fields/>
               <List3Fields/>

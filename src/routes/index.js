@@ -32,6 +32,18 @@ const routes = {
       load: () => import(/* webpackChunkName: 'kitty' */ './kitty'),
     },
     {
+      path: '/notifications',
+      load: () => import(/* webpackChunkName: 'notifications' */ './notifications'),
+    },
+    {
+      path: '/shops',
+      load: () => import(/* webpackChunkName: 'shops' */ './shops'),
+    },
+    {
+      path: '/good-deals',
+      load: () => import(/* webpackChunkName: 'good-deals' */ './good-deals'),
+    },
+    {
       path: '/partnerships',
       load: () => import(/* webpackChunkName: 'partnerships' */ './partnerships'),
     },
