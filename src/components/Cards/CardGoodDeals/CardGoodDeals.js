@@ -29,7 +29,7 @@ CardGoodDeals.defaultProps = {
   title: 'Catégorie',
   sub1: 'Commerce',
   sub2: 'Période',
-  sub3: 'Pourcentage de cagnotte générée',
+  sub3: '% cagnotte générée',
   sub4: 'Titre',
   sub5: 'Photo',
   sub6: 'Statut',

@@ -28,6 +28,25 @@ class GoodDeals extends React.Component {
           </div>
           <CardGoodDeals title='Bons plans'>
             <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal statut='Inactif' stateColor='red'/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal statut='Inactif' stateColor='red'/>
+            <ListGoodDeal statut='Inactif' stateColor='red'/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
+            <ListGoodDeal/>
           </CardGoodDeals>
           <NavigationCard/>
         </div>
