@@ -13,36 +13,17 @@ class CardDetails extends React.Component {
           <FaClose size={23} color="white"/>
         </div>
         <div className={s.content}>
-          <div className={s.menu}>
-              <div className={s.contentMenu}>
-                <FaBookmark size={23} color="#9FACBF"/>
-            <span className={s.text}>{this.props.menuTitle}</span>
-              </div>
-            <div className={s.contentMenu}>
-              <FaBookmark size={23} color="#9FACBF"/>
-              <span className={s.text}>{this.props.menuTitle}</span>
-            </div>
-            <div className={s.contentMenu}>
-              <FaBookmark size={23} color="#9FACBF"/>
-              <span className={s.text}>{this.props.menuTitle}</span>
-            </div>
-            <div className={s.contentMenu}>
-              <FaBookmark size={23} color="#9FACBF"/>
-              <span className={s.text}>{this.props.menuTitle}</span>
-            </div>
-          </div>
-          <div className={s.mainContent}>
-            {this.props.children}
-          </div>
+          {this.props.children}
         </div>
       </div>
+
     );
   }
 }
 
 CardDetails.defaultProps = {
   title: 'Modal Name',
-  menuTitle:'Menu Name',
+  menuTitle: 'Menu Name',
 };
 
 export default withStyles(s)(CardDetails);

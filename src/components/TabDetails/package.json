@@ -1,0 +1,6 @@
+{
+  "name": "TabDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TabDetails.js"
+}

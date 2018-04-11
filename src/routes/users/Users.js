@@ -10,6 +10,7 @@ import FaListAlt from 'react-icons/lib/fa/list-alt';
 import NavigationCard from '../../components/Navigation/Navigation-Card/NavigationCard';
 import { Modal } from 'react-bootstrap';
 import CardDetails from '../../components/Cards/CardDetails';
+import TabDetails from '../../components/TabDetails';
 
 
 class Users extends React.Component {
@@ -70,16 +71,7 @@ class Users extends React.Component {
           <NavigationCard/>
         </div>
       <CardDetails>
-        <label className={s.label} htmlFor="usernameOrEmail">
-          Adresse email:
-          <input
-            className={s.input}
-            id="usernameOrEmail"
-            type="text"
-            name="usernameOrEmail"
-            autoFocus // eslint-disable-line jsx-a11y/no-autofocus
-          />
-        </label>
+        <TabDetails/>
       </CardDetails>
       </div>
     );

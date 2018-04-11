@@ -27,7 +27,7 @@ class PartnershipsPayments extends React.Component {
               <FaChevronLeft size={16} color="white"/>
             </Button>
             <div className={s.buttonContainerRight}>
-              <Button title='Parrainages' backgroundColor='#4D7CAE' link="/partnerships">
+              <Button title='Parrainages' backgroundColor='#5fa613' link="/partnerships">
               </Button>
               <Button title='Filtrer' backgroundColor='#4D7CAE'>
                 <FaListAlt size={20} color="white"/>
