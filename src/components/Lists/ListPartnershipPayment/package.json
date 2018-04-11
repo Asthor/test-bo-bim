@@ -1,0 +1,6 @@
+{
+  "name": "ListPartnershipPayment",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListPartnershipPayment.js"
+}

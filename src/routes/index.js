@@ -48,6 +48,10 @@ const routes = {
       load: () => import(/* webpackChunkName: 'partnerships' */ './partnerships'),
     },
     {
+      path: '/partnerships-payments',
+      load: () => import(/* webpackChunkName: 'partnerships-payments' */ './partnerships-payments'),
+    },
+    {
       path: '/login',
       load: () => import(/* webpackChunkName: 'login' */ './login'),
     },

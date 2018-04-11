@@ -33,33 +33,37 @@ class Partnerships extends React.Component {
               backgroundColor="#2B2F3E"
               link="/general-view"
             >
-              <FaChevronLeft size={16} color="white" />
+              <FaChevronLeft size={16} color="white"/>
             </Button>
-            <Button title="Filtrer" backgroundColor="#4D7CAE">
-              <FaListAlt size={20} color="white" />
-            </Button>
+            <div className={s.buttonContainerRight}>
+              <Button title='Paiements parrainés' backgroundColor='#4D7CAE' link="/partnerships-payments">
+              </Button>
+              <Button title='Filtrer' backgroundColor='#4D7CAE'>
+                <FaListAlt size={20} color="white"/>
+              </Button>
+            </div>
           </div>
           <CardPartnerships title="Parrainages">
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
-            <ListPartnership />
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
+            <ListPartnership/>
           </CardPartnerships>
           <NavigationCard/>
         </div>
