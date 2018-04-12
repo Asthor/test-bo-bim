@@ -70,7 +70,7 @@ class Users extends React.Component {
           </CardUsers>
           <NavigationCard/>
         </div>
-      <CardDetails>
+      <CardDetails title="Détails utilisateur">
         <TabDetails/>
       </CardDetails>
       </div>
