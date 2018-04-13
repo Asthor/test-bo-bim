@@ -252,13 +252,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1;
   margin: 20px;
   flex-wrap: wrap;
   border-radius: 4px;
   padding: 20px;
   background: #9FACBF;
   text-align: center;
+  width: 200px;
 }
 
 .textContainer{
