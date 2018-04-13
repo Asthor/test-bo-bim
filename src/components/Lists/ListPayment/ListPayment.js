@@ -19,9 +19,7 @@ class ListPayment extends React.Component {
           <span className={s.text}>{this.props.field2}</span>
         </div>
         <div className={s.contentField}>
-          <a href={this.props.link}>
           <span className={s.text}>{this.props.field3}</span>
-          </a>
         </div>
         <div className={s.contentField}>
           <span className={s.text}>{this.props.field4}</span>

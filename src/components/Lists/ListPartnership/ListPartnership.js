@@ -5,7 +5,6 @@ import s from './ListPartnership.css';
 class ListPartnership extends React.Component {
   render() {
     return (
-      <a href={this.props.link}>
       <div className={s.container}>
         <div className={s.contentField}>
           <span className={s.text}>{this.props.field1}</span>
@@ -20,7 +19,6 @@ class ListPartnership extends React.Component {
           <span className={s.text}>{this.props.field4}</span>
         </div>
       </div>
-      </a>
     );
   }
 }

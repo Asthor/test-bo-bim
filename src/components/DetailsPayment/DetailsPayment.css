@@ -1,0 +1,99 @@
+@import '../variables.css';
+
+.container {
+  background: #FFF;
+  display: flex;
+  flex: 1;
+  margin: 20px;
+  flex-direction: column;
+  min-width: 400px;
+  flex-wrap: wrap;
+}
+
+.infosContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+}
+
+.infosRight {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  line-height: 30px;
+}
+
+.shopName {
+  color: #8893a3;
+  font-size: 20px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.date {
+  color: #8893a3;
+  font-size: 16px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.statutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.statePayment {
+  font-size: 12px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  margin: 20px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #8893a3;
+}
+
+.listContainer {
+  margin-top: 10px;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonCancel {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  color: red;
+  cursor: pointer;
+  padding: 5px;
+  width: 160px;
+  height: 40px;
+  transition: 0.3s;
+  outline: none;
+  border: 0.5px solid red;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.buttonCancel:hover {
+  background: red;
+  color: #fff;
+}

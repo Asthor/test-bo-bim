@@ -4,38 +4,34 @@ import s from './ListKitty.css';
 
 class ListKitty extends React.Component {
   render() {
-    return (
-      <a href={this.props.link}>
-        <div className={s.container}>
-          <div className={s.contentField}>
-            <span className={s.text}>{this.props.field1}</span>
-          </div>
-          <div className={s.contentField}>
-            <span className={s.text}>{this.props.field2}</span>
-          </div>
-          <div className={s.contentField}>
-            <span className={s.text}>{this.props.field3}</span>
-          </div>
-          <div className={s.contentField}>
-            <div style={{backgroundColor: this.props.stateColor}} className={s.statutContainer}>
-              <span className={s.statut}>{this.props.statut}</span>
-            </div>
-          </div>
-          <div className={s.contentField}>
-            <span className={s.text}>{this.props.field4}</span>
-          </div>
-          <div className={s.contentField}>
-            <span className={s.text}>{this.props.field5}</span>
-          </div>
-          <div className={s.contentField}>
-            <span className={s.text}>{this.props.field6}</span>
-          </div>
-          <div className={s.contentField}>
-            <span className={s.text}>{this.props.field7}</span>
-          </div>
+    return <div className={s.container}>
+      <div className={s.contentField}>
+        <span className={s.text}>{this.props.field1}</span>
+      </div>
+      <div className={s.contentField}>
+        <span className={s.text}>{this.props.field2}</span>
+      </div>
+      <div className={s.contentField}>
+        <span className={s.text}>{this.props.field3}</span>
+      </div>
+      <div className={s.contentField}>
+        <div style={{backgroundColor: this.props.stateColor}} className={s.statutContainer}>
+          <span className={s.statut}>{this.props.statut}</span>
         </div>
-      </a>
-    );
+      </div>
+      <div className={s.contentField}>
+        <span className={s.text}>{this.props.field4}</span>
+      </div>
+      <div className={s.contentField}>
+        <span className={s.text}>{this.props.field5}</span>
+      </div>
+      <div className={s.contentField}>
+        <span className={s.text}>{this.props.field6}</span>
+      </div>
+      <div className={s.contentField}>
+        <span className={s.text}>{this.props.field7}</span>
+      </div>
+    </div>;
   }
 }
 

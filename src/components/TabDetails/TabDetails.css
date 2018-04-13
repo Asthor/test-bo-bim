@@ -63,9 +63,14 @@
 
 .identity {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 20px;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.right{
+  margin-left: 20px;
 }
 
 .title {
@@ -121,7 +126,9 @@
 }
 
 .input {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
   box-sizing: border-box;
   margin: 5px 0 0;
   padding: 10px 16px;
@@ -216,25 +223,54 @@
 
 /* ADMINISTRATION */
 
-.adminContainer {
+.rowContainer {
   display: flex;
-  flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.adminLeft {
+.containerLeft {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex: 1;
   margin: 20px;
   flex-wrap: wrap;
 }
 
-.adminRight {
+.containerRight {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   flex: 1;
   margin: 20px;
   flex-wrap: wrap;
+}
+
+.containerAmounts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 20px;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  padding: 20px;
+  background: #9FACBF;
+  text-align: center;
+}
+
+.textContainer{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.titleContainer{
+  font-size: 20px;
+  color: #fff;
+  text-decoration: underline;
+
 }

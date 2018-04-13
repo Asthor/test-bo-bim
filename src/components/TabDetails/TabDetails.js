@@ -14,19 +14,19 @@ class TabDetails extends React.Component {
         <div className={s.tab}>
           <button
             className={s.tablinks}
-            onClick={() => this.setState({ selected: 0 })}
+            onClick={() => this.setState({selected: 0})}
           >
             {this.props.menu1}
           </button>
           <button
             className={s.tablinks}
-            onClick={() => this.setState({ selected: 1 })}
+            onClick={() => this.setState({selected: 1})}
           >
             {this.props.menu2}
           </button>
           <button
             className={s.tablinks}
-            onClick={() => this.setState({ selected: 2 })}
+            onClick={() => this.setState({selected: 2})}
           >
             {this.props.menu3}
           </button>
@@ -62,7 +62,7 @@ class TabDetails extends React.Component {
             </div>
             <button
               className={s.button}
-              onClick={() => this.setState({ selected: 3 })}
+              onClick={() => this.setState({selected: 3})}
             >
               {this.props.menu4}
             </button>
@@ -74,6 +74,16 @@ class TabDetails extends React.Component {
         {this.state.selected === 1 && (
           <div className={s.tabcontent}>
             <span className={s.title}>Informations financières</span>
+            <div className={s.rowContainer}>
+              <div className={s.containerAmounts}>
+                <span className={s.titleContainer}>Parrainage</span>
+                <span className={s.textContainer}>{this.props.amountPartnership}</span>
+              </div>
+              <div className={s.containerAmounts}>
+                <span className={s.titleContainer}>Cagnotte actuelle</span>
+                <span className={s.textContainer}>{this.props.amountKitty}</span>
+              </div>
+            </div>
           </div>
         )}
 
@@ -82,8 +92,8 @@ class TabDetails extends React.Component {
         {this.state.selected === 2 && (
           <div className={s.tabcontent}>
             <span className={s.title}>Administration</span>
-            <div className={s.adminContainer}>
-              <div className={s.adminLeft}>
+            <div className={s.rowContainer}>
+              <div className={s.containerLeft}>
                 <div className={s.formGroup}>
                   <label className={s.label} htmlFor="password">
                     Mot de passe:
@@ -110,12 +120,12 @@ class TabDetails extends React.Component {
                 </div>
                 <button
                   className={s.button}
-                  onClick={() => this.setState({ selected: 3 })}
+                  onClick={() => this.setState({selected: 3})}
                 >
                   {this.props.menu5}
                 </button>
               </div>
-              <div className={s.adminRight}>
+              <div className={s.containerRight}>
                 <div className={s.formGroup}>
                   <label className={s.label} htmlFor="pincode">
                     Code PIN:
@@ -142,7 +152,7 @@ class TabDetails extends React.Component {
                 </div>
                 <button
                   className={s.button}
-                  onClick={() => this.setState({ selected: 3 })}
+                  onClick={() => this.setState({selected: 3})}
                 >
                   {this.props.menu5}
                 </button>
@@ -263,13 +273,13 @@ class TabDetails extends React.Component {
             <div className={s.buttonContainer}>
               <button
                 className={s.buttonValid}
-                onClick={() => this.setState({ selected: 0 })}
+                onClick={() => this.setState({selected: 0})}
               >
                 {this.props.menu5}
               </button>
               <button
                 className={s.buttonCancel}
-                onClick={() => this.setState({ selected: 0 })}
+                onClick={() => this.setState({selected: 0})}
               >
                 {this.props.menu6}
               </button>
@@ -288,6 +298,8 @@ TabDetails.defaultProps = {
   menu4: 'Modifier',
   menu5: 'Valider',
   menu6: 'Annuler',
+  amountPartnership: '0,00€',
+  amountKitty: '0,00€',
 };
 
 export default withStyles(s)(TabDetails);
