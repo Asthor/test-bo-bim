@@ -67,10 +67,9 @@
   flex-direction: row;
   margin-top: 20px;
   flex-wrap: wrap;
-  align-items: center;
 }
 
-.right{
+.right {
   margin-left: 20px;
 }
 
@@ -154,16 +153,16 @@
 .buttonContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .buttonValid {
-  margin: 10px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   color: #fff;
   cursor: pointer;
-  width: 90px;
+  width: 200px;
   height: 40px;
   transition: 0.3s;
   outline: none;
@@ -259,19 +258,22 @@
   padding: 20px;
   background: #9FACBF;
   text-align: center;
-  width: 200px;
+  width: 230px;
 }
 
-.textContainer{
+.textContainer {
   font-size: 30px;
   font-weight: bold;
   color: #fff;
   margin-top: 20px;
 }
 
-.titleContainer{
-  font-size: 20px;
+.titleContainer {
+  font-size: 16px;
   color: #fff;
-  text-decoration: underline;
 
+}
+
+.description {
+  margin-top: 30px;
 }

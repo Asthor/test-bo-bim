@@ -272,16 +272,16 @@ class TabDetails extends React.Component {
             </form>
             <div className={s.buttonContainer}>
               <button
-                className={s.buttonValid}
-                onClick={() => this.setState({selected: 0})}
-              >
-                {this.props.menu5}
-              </button>
-              <button
                 className={s.buttonCancel}
                 onClick={() => this.setState({selected: 0})}
               >
                 {this.props.menu6}
+              </button>
+              <button
+                className={s.buttonValid}
+                onClick={() => this.setState({selected: 0})}
+              >
+                {this.props.menu5}
               </button>
             </div>
           </div>

@@ -8,6 +8,8 @@ import MdAddCircleOutline from 'react-icons/lib/md/add-circle-outline';
 import NavigationCard from '../../components/Navigation/Navigation-Card/NavigationCard';
 import CardShops from '../../components/Cards/CardShops/CardShops';
 import ListShop from '../../components/Lists/ListShop/ListShop';
+import CardDetails from '../../components/Cards/CardDetails';
+import TabDetailsShop from '../../components/TabDetailsShop';
 
 class Shops extends React.Component {
   static propTypes = {
@@ -49,10 +51,16 @@ class Shops extends React.Component {
             <ListShop/>
           </CardShops>
           <NavigationCard/>
+          <CardDetails title={this.props.shopName}>
+            <TabDetailsShop/>
+          </CardDetails>
         </div>
       </div>
     );
   }
 }
 
+Shops.defaultProps = {
+  shopName: 'Nom commerce',
+};
 export default withStyles(s)(Shops);

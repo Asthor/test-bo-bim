@@ -1,0 +1,6 @@
+{
+  "name": "ListShopPayment",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ListShopPayment.js"
+}

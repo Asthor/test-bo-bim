@@ -1,0 +1,46 @@
+@import '../variables.css';
+
+.container {
+  background: #FFF;
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  width: 130px;
+  justify-content: center;
+}
+
+.header {
+  background-color: #9FACBF;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-color: #404040;
+}
+
+.text {
+  color: #9FACBF;
+  font-size: 16px;
+  flex-wrap: wrap;
+  flex: 1;
+  line-height: 25px;
+}
+
+.statut {
+  color: #fff;
+  font-size: 16px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}

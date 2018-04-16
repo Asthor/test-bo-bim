@@ -1,0 +1,6 @@
+{
+  "name": "CardShopPayments",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CardShopPayments.js"
+}

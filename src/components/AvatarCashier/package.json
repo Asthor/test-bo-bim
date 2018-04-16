@@ -1,0 +1,6 @@
+{
+  "name": "AvatarCashier",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./AvatarCashier.js"
+}
